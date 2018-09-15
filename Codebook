@@ -1,1 +1,41 @@
+GETTING AND CLEANING DATA COURSE PROJECT
+
+# STEP 1  Getting data
+-download zip file if it i not already downloaded,
+-unziping zip file containing data if data directory doesn't already exist,
+
+
+# STEP 2  Reading data
+-reading training data
+-reading test data
+-reading features, don't convert text labels to factors
+-reading activity labels
+
+
+# Step 3  Merge the training and the test sets to create one data set
+-concatenate individual data tables
+-remove individual data tables to save memory
+-assigning column names
+
+
+# Step 4  Extracting only the measurements on the mean and standard deviation for each measurement
+-determine columns of data set
+-keeping data in these columns only
+
+
+# Step 5  Use descriptive activity names to name the activities in the data set
+- replace activity values with named factor levels
+
+# Step 6  Appropriately label the data set with descriptive variable names
+- get column names
+- remove special characters
+- expand abbreviations and clean up names
+- correct typo
+- use new labels as column names
+
+
+# Step 7 Create a second, independent tidy set with the average of each variable for each activity and each subject
+-group by subject and activity and summarise using mean
+-output to file "tidy_data.txt"
+
 
