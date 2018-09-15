@@ -17,7 +17,7 @@ Extract only the measurements on the mean and standard deviation for each measur
 Use descriptive activity names to name the activities in the data set.
 Appropriately label the data set with descriptive variable names.
 Create a second, independent tidy set with the average of each variable for each activity and each subject.
-Write the data set to the NEW_TIDY.txt file.
+Write the data set to the TIDY_DATA.txt file.
 
 
 This script requires the dplyr package.
